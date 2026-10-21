@@ -38,7 +38,7 @@ When the Visual Studio Installer opens, select **Desktop development with C++**.
 
 ## Run
 
-From the `rust` directory:
+From the repository root:
 
 ```powershell
 cargo run
@@ -119,7 +119,7 @@ Invoke-RestMethod -Method Post `
 ## Project structure
 
 ```text
-rust/
+.
 ├── Cargo.toml
 └── src/
     ├── main.rs             # Actix server and application state
